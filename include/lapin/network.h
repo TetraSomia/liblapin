@@ -31,7 +31,7 @@ typedef void			t_bunny_network;
 */
 typedef enum			e_bunny_comtype
   {
-    ERROR			= 0,
+    ERROR_			= 0,
     EXPIRED			= 1,
     NETCONNECTED		= 2,
     NETDISCONNECTED		= 3,

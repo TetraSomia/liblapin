@@ -5,7 +5,7 @@
 
 #ifndef			__BPT_COMMUNICATION_HPP__
 # define		__BPT_COMMUNICATION_HPP__
-# undef			ERROR
+# undef			ERROR_
 
 namespace		bpt
 {
@@ -24,7 +24,7 @@ namespace		bpt
 
     typedef enum	e_ComType
       {
-	ERROR		= 0,
+	ERROR_		= 0,
 	EXPIRED		= 1,
 	CONNECTED	= 2,
 	DISCONNECTED	= 3,

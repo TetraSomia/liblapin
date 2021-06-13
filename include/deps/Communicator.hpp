@@ -12,7 +12,7 @@
 # include				"Communication.hpp"
 # define				UNUSED_BUFFER		((char*)-1)
 # define				TOO_BIG			((char*)-1)
-# undef					ERROR
+# undef					ERROR_
 
 namespace				bpt
 {

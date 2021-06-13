@@ -8,7 +8,7 @@
 bpt::NetCom::Communication	&bpt::NetCom::Communicator::RetError(ErrorType		error,
 								     unsigned int	time)
 {
-  this->communication.comtype = ERROR;
+  this->communication.comtype = ERROR_;
   this->communication.error.time = time;
   this->communication.error.errortype = error;
   return (this->communication);
